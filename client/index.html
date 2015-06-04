@@ -5,21 +5,24 @@
 </head>
 <body>
   <div class="container" style="width: 400">
-      <form class="" style="margin: 100px 0px">
-        <div class="row">
-          <label class="form-group">Name</label>
-          <input class="form-control form-group col-md-12" placeholder="Formy Formson" />
-        </div>
-        <div class="row">
-          <label class="form-group">Email</label>
-          <input class="form-control form-group col-md-12" placeholder="Form@gmail.com" />
-        </div>
-        <div class="row">
-          <label class="form-group">Password</label>
-          <input class="form-control form-group col-md-12"   />
-        </div>
-      </form>
-    </div>
+    <form class="" style="margin: 100px 0px">
+      <div class="row">
+        <label class="form-group">Name</label> <span class="pull-right" style="color: grey;">"#id-name"</span>
+        <input id="id-name" name="name" class="form-control form-group col-md-12" placeholder="Formy Formson" />
+      </div>
+      <div class="row">
+        <label class="form-group">Email</label> <span class="pull-right" style="color: grey;">".class-email"</span>
+        <input class="class-email form-control form-group col-md-12" placeholder="Form@gmail.com" />
+      </div>
+      <div class="row">
+        <label class="form-group">Password</label> <span class="pull-right" style="color: grey;">'input[name="name-password"]'</span>
+        <input name="name-password" class="form-control form-group col-md-12"   />
+      </div>
+      <div class="row">
+        <br>
+        <button class="btn btn-primary">Submit</button>
+      </div>
+    </form>
   </div>
 </body>
 </html>
